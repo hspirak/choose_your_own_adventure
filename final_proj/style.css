@@ -140,4 +140,9 @@ text-align: justify;
         display: relative;
     }
 
+    .options {
+        display: flex;
+        flex-direction: column;
+    }
+
   }
