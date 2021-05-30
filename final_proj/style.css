@@ -74,7 +74,7 @@ button {
     color: rgb(110, 110, 110);
 }
 
-button:hover {
+button:hover, button:focus {
     background-color: rgb(241, 241, 241);
     border: 2px solid black;
     color: black;
@@ -85,6 +85,16 @@ button:hover {
 .choice {
     margin: 20px 20px 20px 0px;
 
+}
+
+#show {
+    display: inline;
+    font-weight: bold;
+}
+
+#continue {
+    width: 100%;
+    visibility: hidden;
 }
 
 li {
