@@ -87,7 +87,7 @@ button:hover, button:focus {
 
 }
 
-#show {
+.show {
     display: inline;
     font-weight: bold;
 }
